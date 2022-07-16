@@ -1,0 +1,38 @@
+body{
+    margin:0
+}
+.top-background{
+    background-color: #1837B2;
+    height:60px;
+width:auto;
+    display:flex;
+    justify-content: center;
+}
+span.grid-1 {
+    position: fixed;
+    left: 0;
+    color:white;
+    padding:10px;
+}
+span.grid-3 {
+    position: fixed;
+    right: 0;
+    padding: 10px;
+   
+}
+span.grid-2{
+    min-width: 600px;
+    
+}
+
+@media screen and (max-width:500px){
+    .grid-1{
+        display: none;
+    }
+    .grid-3{
+        display: none;
+    }
+    span.grid-2{
+        min-width: 400px;
+    }
+}
